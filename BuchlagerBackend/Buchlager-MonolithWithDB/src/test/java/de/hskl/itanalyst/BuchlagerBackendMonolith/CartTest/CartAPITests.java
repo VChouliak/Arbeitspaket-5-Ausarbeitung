@@ -5,7 +5,6 @@ import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.dto.Cart.CartDTO;
 import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.model.*;
-import de.hskl.itanalyst.BuchlagerBackendMonolith.repository.CartRepository;
 import de.hskl.itanalyst.BuchlagerBackendMonolith.service.ICartService;
 import de.hskl.itanalyst.BuchlagerBackendMonolith.utils.ModelMapperUtils;
 import org.junit.jupiter.api.BeforeEach;

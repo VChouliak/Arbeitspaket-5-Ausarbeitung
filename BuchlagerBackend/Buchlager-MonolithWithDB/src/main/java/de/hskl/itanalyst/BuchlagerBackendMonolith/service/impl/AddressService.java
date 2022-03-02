@@ -1,7 +1,6 @@
 package de.hskl.itanalyst.BuchlagerBackendMonolith.service.impl;
 
 import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.model.AddressEntity;
-import de.hskl.itanalyst.BuchlagerBackendMonolith.repository.AddressRepository;
 import de.hskl.itanalyst.BuchlagerBackendMonolith.service.IAddressService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

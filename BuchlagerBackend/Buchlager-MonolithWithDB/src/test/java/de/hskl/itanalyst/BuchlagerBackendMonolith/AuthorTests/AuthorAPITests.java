@@ -7,7 +7,6 @@ import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.model.AddressEntity;
 import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.model.AuthorEntity;
 import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.model.BookEntity;
 import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.model.PublisherEntity;
-import de.hskl.itanalyst.BuchlagerBackendMonolith.repository.AuthorRepository;
 import de.hskl.itanalyst.BuchlagerBackendMonolith.service.IAuthorService;
 import de.hskl.itanalyst.BuchlagerBackendMonolith.utils.ModelMapperUtils;
 import org.junit.jupiter.api.BeforeEach;

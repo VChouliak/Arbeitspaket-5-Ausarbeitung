@@ -1,11 +1,7 @@
 package de.hskl.itanalyst.BuchlagerBackendMonolith.service.impl;
 
 import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.model.BookEntity;
-import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.model.CartEntity;
-import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.model.CartItemEntity;
 import de.hskl.itanalyst.BuchlagerBackendMonolith.repository.BookRepository;
-import de.hskl.itanalyst.BuchlagerBackendMonolith.repository.CartItemRepository;
-import de.hskl.itanalyst.BuchlagerBackendMonolith.repository.CartRepository;
 import de.hskl.itanalyst.BuchlagerBackendMonolith.service.ICartService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

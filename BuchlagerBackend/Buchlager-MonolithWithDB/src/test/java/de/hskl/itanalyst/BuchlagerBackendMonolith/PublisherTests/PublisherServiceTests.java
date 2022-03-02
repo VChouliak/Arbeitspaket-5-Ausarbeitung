@@ -2,7 +2,6 @@ package de.hskl.itanalyst.BuchlagerBackendMonolith.PublisherTests;
 
 import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.model.AddressEntity;
 import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.model.PublisherEntity;
-import de.hskl.itanalyst.BuchlagerBackendMonolith.repository.PublisherRepository;
 import de.hskl.itanalyst.BuchlagerBackendMonolith.service.IPublisherService;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;

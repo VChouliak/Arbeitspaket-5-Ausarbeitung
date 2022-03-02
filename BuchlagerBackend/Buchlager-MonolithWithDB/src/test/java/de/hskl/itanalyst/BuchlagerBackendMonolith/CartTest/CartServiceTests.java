@@ -2,8 +2,6 @@ package de.hskl.itanalyst.BuchlagerBackendMonolith.CartTest;
 
 import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.model.*;
 import de.hskl.itanalyst.BuchlagerBackendMonolith.repository.BookRepository;
-import de.hskl.itanalyst.BuchlagerBackendMonolith.repository.CartItemRepository;
-import de.hskl.itanalyst.BuchlagerBackendMonolith.repository.CartRepository;
 import de.hskl.itanalyst.BuchlagerBackendMonolith.service.ICartService;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;

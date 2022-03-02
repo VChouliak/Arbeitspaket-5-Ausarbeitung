@@ -1,6 +1,5 @@
 package de.hskl.itanalyst.BuchlagerBackendMonolith.UtilTests;
 
-import de.hskl.itanalyst.BuchlagerBackendMonolith.repository.CartRepository;
 import de.hskl.itanalyst.BuchlagerBackendMonolith.utils.CartCleanup;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

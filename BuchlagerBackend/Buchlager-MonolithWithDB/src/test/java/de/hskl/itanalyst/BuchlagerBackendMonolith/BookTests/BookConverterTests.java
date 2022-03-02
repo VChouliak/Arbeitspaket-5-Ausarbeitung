@@ -1,15 +1,13 @@
 package de.hskl.itanalyst.BuchlagerBackendMonolith.BookTests;
 
-import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.dto.Book.BookDTO;
-import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.dto.Book.BookLightDTO;
-import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.dto.Book.BookUpdateDTO;
+import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.dto.BookDTO;
+import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.dto.BookLightDTO;
+import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.dto.BookUpdateDTO;
 import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.model.AddressEntity;
 import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.model.AuthorEntity;
 import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.model.BookEntity;
 import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.model.PublisherEntity;
-import de.hskl.itanalyst.BuchlagerBackendMonolith.repository.AuthorRepository;
 import de.hskl.itanalyst.BuchlagerBackendMonolith.repository.BookRepository;
-import de.hskl.itanalyst.BuchlagerBackendMonolith.repository.PublisherRepository;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

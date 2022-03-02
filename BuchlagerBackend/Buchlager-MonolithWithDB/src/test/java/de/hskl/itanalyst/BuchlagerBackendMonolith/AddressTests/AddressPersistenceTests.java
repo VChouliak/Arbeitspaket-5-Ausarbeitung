@@ -2,8 +2,6 @@ package de.hskl.itanalyst.BuchlagerBackendMonolith.AddressTests;
 
 import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.model.AddressEntity;
 import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.model.PublisherEntity;
-import de.hskl.itanalyst.BuchlagerBackendMonolith.repository.AddressRepository;
-import de.hskl.itanalyst.BuchlagerBackendMonolith.repository.PublisherRepository;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

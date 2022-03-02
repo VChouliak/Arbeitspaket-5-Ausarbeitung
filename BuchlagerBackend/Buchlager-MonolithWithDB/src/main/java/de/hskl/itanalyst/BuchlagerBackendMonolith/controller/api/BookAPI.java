@@ -1,7 +1,7 @@
 package de.hskl.itanalyst.BuchlagerBackendMonolith.controller.api;
 
-import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.dto.Book.BookDTO;
-import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.dto.Book.BookUpdateDTO;
+import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.dto.BookDTO;
+import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.dto.BookUpdateDTO;
 import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.model.BookEntity;
 import de.hskl.itanalyst.BuchlagerBackendMonolith.service.IBookService;
 import io.swagger.annotations.*;

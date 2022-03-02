@@ -2,7 +2,7 @@ package de.hskl.itanalyst.BuchlagerBackendMonolith.controller.api;
 
 import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.dto.Address.AddressDTO;
 import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.dto.Author.AuthorDTO;
-import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.dto.Book.BookLightDTO;
+import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.dto.BookLightDTO;
 import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.dto.Publisher.PublisherDTO;
 import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.dto.Search.MultiSearchResultDTO;
 import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.model.AddressEntity;

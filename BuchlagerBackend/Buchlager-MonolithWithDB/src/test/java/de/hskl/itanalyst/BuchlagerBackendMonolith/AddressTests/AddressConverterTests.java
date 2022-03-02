@@ -3,7 +3,6 @@ package de.hskl.itanalyst.BuchlagerBackendMonolith.AddressTests;
 import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.dto.Address.AddressDTO;
 import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.dto.Address.AddressUpdateDTO;
 import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.model.AddressEntity;
-import de.hskl.itanalyst.BuchlagerBackendMonolith.repository.AddressRepository;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

@@ -1,7 +1,6 @@
 package de.hskl.itanalyst.BuchlagerBackendMonolith.AuthorTests;
 
 import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.model.AuthorEntity;
-import de.hskl.itanalyst.BuchlagerBackendMonolith.repository.AuthorRepository;
 import de.hskl.itanalyst.BuchlagerBackendMonolith.service.IAuthorService;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;

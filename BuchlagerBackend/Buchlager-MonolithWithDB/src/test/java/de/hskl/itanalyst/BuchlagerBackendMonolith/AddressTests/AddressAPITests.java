@@ -4,7 +4,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.dto.Address.AddressDTO;
 import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.dto.Address.AddressUpdateDTO;
 import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.model.AddressEntity;
-import de.hskl.itanalyst.BuchlagerBackendMonolith.repository.AddressRepository;
 import de.hskl.itanalyst.BuchlagerBackendMonolith.service.IAddressService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

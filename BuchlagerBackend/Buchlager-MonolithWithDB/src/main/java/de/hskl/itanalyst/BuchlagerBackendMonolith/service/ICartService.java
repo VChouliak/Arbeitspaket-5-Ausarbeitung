@@ -1,7 +1,5 @@
 package de.hskl.itanalyst.BuchlagerBackendMonolith.service;
 
-import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.model.CartEntity;
-
 import java.util.Optional;
 
 public interface ICartService {

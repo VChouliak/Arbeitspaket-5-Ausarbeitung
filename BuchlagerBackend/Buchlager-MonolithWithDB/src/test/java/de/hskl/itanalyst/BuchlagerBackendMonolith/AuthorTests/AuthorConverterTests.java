@@ -3,7 +3,6 @@ package de.hskl.itanalyst.BuchlagerBackendMonolith.AuthorTests;
 import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.dto.Author.AuthorDTO;
 import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.dto.Author.AuthorUpdateDTO;
 import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.model.*;
-import de.hskl.itanalyst.BuchlagerBackendMonolith.repository.AuthorRepository;
 import de.hskl.itanalyst.BuchlagerBackendMonolith.repository.BookRepository;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;

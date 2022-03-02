@@ -1,7 +1,6 @@
 package de.hskl.itanalyst.BuchlagerBackendMonolith.controller.api;
 
 import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.dto.Cart.CartDTO;
-import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.model.CartEntity;
 import de.hskl.itanalyst.BuchlagerBackendMonolith.service.ICartService;
 import io.swagger.annotations.*;
 import org.modelmapper.ModelMapper;

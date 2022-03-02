@@ -1,9 +1,7 @@
 package de.hskl.itanalyst.BuchlagerBackendMonolith.service.impl;
 
 import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.model.BookEntity;
-import de.hskl.itanalyst.BuchlagerBackendMonolith.repository.AuthorRepository;
 import de.hskl.itanalyst.BuchlagerBackendMonolith.repository.BookRepository;
-import de.hskl.itanalyst.BuchlagerBackendMonolith.repository.PublisherRepository;
 import de.hskl.itanalyst.BuchlagerBackendMonolith.service.IBookService;
 import de.hskl.itanalyst.BuchlagerBackendMonolith.utils.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;

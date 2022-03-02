@@ -1,7 +1,6 @@
 package de.hskl.itanalyst.BuchlagerBackendMonolith.AddressTests;
 
 import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.model.AddressEntity;
-import de.hskl.itanalyst.BuchlagerBackendMonolith.repository.AddressRepository;
 import de.hskl.itanalyst.BuchlagerBackendMonolith.service.IAddressService;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;

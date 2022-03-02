@@ -1,8 +1,8 @@
 package de.hskl.itanalyst.BuchlagerBackendMonolith.BookTests;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.dto.Book.BookDTO;
-import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.dto.Book.BookUpdateDTO;
+import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.dto.BookDTO;
+import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.dto.BookUpdateDTO;
 import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.model.AddressEntity;
 import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.model.AuthorEntity;
 import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.model.BookEntity;
