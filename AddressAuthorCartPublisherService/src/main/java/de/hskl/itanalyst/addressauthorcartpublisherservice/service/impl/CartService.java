@@ -1,12 +1,12 @@
-package de.hskl.itanalyst.BuchlagerBackendMonolith.service.impl;
+package de.hskl.itanalyst.addressauthorcartpublisherservice.service.impl;
 
-import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.model.BookEntity;
-import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.model.CartEntity;
-import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.model.CartItemEntity;
-import de.hskl.itanalyst.BuchlagerBackendMonolith.repository.BookRepository;
-import de.hskl.itanalyst.BuchlagerBackendMonolith.repository.CartItemRepository;
-import de.hskl.itanalyst.BuchlagerBackendMonolith.repository.CartRepository;
-import de.hskl.itanalyst.BuchlagerBackendMonolith.service.ICartService;
+import de.hskl.itanalyst.addressauthorcartpublisherservice.domain.model.BookEntity;
+import de.hskl.itanalyst.addressauthorcartpublisherservice.domain.model.CartEntity;
+import de.hskl.itanalyst.addressauthorcartpublisherservice.domain.model.CartItemEntity;
+import de.hskl.itanalyst.addressauthorcartpublisherservice.repository.BookRepository;
+import de.hskl.itanalyst.addressauthorcartpublisherservice.repository.CartItemRepository;
+import de.hskl.itanalyst.addressauthorcartpublisherservice.repository.CartRepository;
+import de.hskl.itanalyst.addressauthorcartpublisherservice.service.ICartService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

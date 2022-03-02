@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>de.hskl.itanalyst</groupId>
-    <artifactId>book-service</artifactId>
+    <artifactId>address-author-cart-publisher-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>BuchService</name>
+    <name>AddressAuthorCartPublisherService</name>
 
     <properties>
         <java.version>11</java.version>

@@ -1,8 +1,8 @@
-package de.hskl.itanalyst.BuchlagerBackendMonolith.controller.api;
+package de.hskl.itanalyst.addressauthorcartpublisherservice.controller.api;
 
-import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.dto.Cart.CartDTO;
-import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.model.CartEntity;
-import de.hskl.itanalyst.BuchlagerBackendMonolith.service.ICartService;
+import de.hskl.itanalyst.addressauthorcartpublisherservice.domain.dto.Cart.CartDTO;
+import de.hskl.itanalyst.addressauthorcartpublisherservice.domain.model.CartEntity;
+import de.hskl.itanalyst.addressauthorcartpublisherservice.service.ICartService;
 import io.swagger.annotations.*;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;

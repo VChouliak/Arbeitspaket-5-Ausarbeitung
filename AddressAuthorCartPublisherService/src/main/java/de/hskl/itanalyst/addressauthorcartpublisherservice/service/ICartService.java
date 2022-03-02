@@ -1,6 +1,6 @@
-package de.hskl.itanalyst.BuchlagerBackendMonolith.service;
+package de.hskl.itanalyst.addressauthorcartpublisherservice.service;
 
-import de.hskl.itanalyst.BuchlagerBackendMonolith.domain.model.CartEntity;
+import de.hskl.itanalyst.addressauthorcartpublisherservice.domain.model.CartEntity;
 
 import java.util.Optional;
 
