@@ -34,7 +34,7 @@ public class SwaggerConfiguration {
                 "Software-Architekturen: Buchlager als Monolith",
                 "1.0",
                 "Nutzungsbedingungen",
-                new Contact("Andreas Eitel", null, "andreas.eitel@hs-kl.de"),
+                new Contact("Vitaly Chouliak", null, "vich0002@stud.hs-kl.de"),
                 "Apache License 2.0", "https://www.apache.org/licenses/LICENSE-2.0", Collections.emptyList());
     }
 }

@@ -1,6 +1,7 @@
-package de.hskl.itanalyst.buchservice.configuration;
+package de.hskl.itanalyst.suchservice.configuration;
 
-import de.hskl.itanalyst.buchservice.domain.model.BookEntity;
+import de.hskl.itanalyst.suchservice.domain.dto.Search.MultiSearchResultDTO;
+import de.hskl.itanalyst.suchservice.domain.model.BookEntity;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import springfox.documentation.builders.PathSelectors;
@@ -23,7 +24,6 @@ public class SwaggerConfiguration {
                 .apis(RequestHandlerSelectors.any())
                 .paths(PathSelectors.ant("/api/**"))
                 .build()
-                .ignoredParameterTypes(BookEntity.class)
                 .useDefaultResponseMessages(false)
                 .apiInfo(apiInfo());
     }
@@ -31,7 +31,7 @@ public class SwaggerConfiguration {
     private ApiInfo apiInfo() {
         return new ApiInfo(
                 "REST API für das Buchlager",
-                "Software-Architekturen: Buchlager als Monolith",
+                "Software-Architekturen: Suchservice",
                 "1.0",
                 "Nutzungsbedingungen",
                 new Contact("Vitaly Chouliak", null, "vich0002@stud.hs-kl.de"),
