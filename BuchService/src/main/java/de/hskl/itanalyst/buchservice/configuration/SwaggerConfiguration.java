@@ -31,7 +31,7 @@ public class SwaggerConfiguration {
     private ApiInfo apiInfo() {
         return new ApiInfo(
                 "REST API für das Buchlager",
-                "Software-Architekturen: Buchlager als Monolith",
+                "Software-Architekturen: Buchservice",
                 "1.0",
                 "Nutzungsbedingungen",
                 new Contact("Vitaly Chouliak", null, "vich0002@stud.hs-kl.de"),
