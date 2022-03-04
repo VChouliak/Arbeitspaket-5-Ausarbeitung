@@ -1,15 +1,18 @@
 image: maven:3-amazoncorretto-17
 
+artifacts:
+  expire_in: 2 weeks
+
 stages:
   - compile
   - package
 
-clean-compile-ConfigurationServer:
+Clean and Compile Services and Servers:
   stage: compile
   script:
-    - mvn -f ConfigurationServer/ clean compile
+     - mvn clean compile
 
-package-ConfigurationServer:
-  stage: package
-  script:
-    - mvn -f ConfigurationServer/ package -DskipTests
+Create artifacts for Services and Servers:
+    stage: package
+    script:
+      - mvn package -DskipTests
