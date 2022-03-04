@@ -1,0 +1,15 @@
+image: maven:3-amazoncorretto-11
+
+stages:
+  - compile
+  - package
+
+clean-compile-ConfigurationServer:
+  stage: compile
+  script:
+    - mvn -f ConfigurationServer/ clean compile
+
+package-ConfigurationServer:
+  stage: package
+  script:
+    - mvn -f ConfigurationServer/ package -DskipTests
