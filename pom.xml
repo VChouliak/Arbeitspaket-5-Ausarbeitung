@@ -15,5 +15,6 @@
         <module>BuchService</module>
         <module>SuchService</module>
         <module>UIService</module>
+        <module>supplier</module>
     </modules>
 </project>

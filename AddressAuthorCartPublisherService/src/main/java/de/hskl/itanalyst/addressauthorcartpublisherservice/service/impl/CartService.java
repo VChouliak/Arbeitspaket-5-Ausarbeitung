@@ -1,5 +1,7 @@
 package de.hskl.itanalyst.addressauthorcartpublisherservice.service.impl;
 
+import de.hskl.itanalyst.addressauthorcartpublisherservice.client.SupplierClient;
+import de.hskl.itanalyst.addressauthorcartpublisherservice.client.model.BookOrderDTO;
 import de.hskl.itanalyst.addressauthorcartpublisherservice.domain.model.BookEntity;
 import de.hskl.itanalyst.addressauthorcartpublisherservice.domain.model.CartEntity;
 import de.hskl.itanalyst.addressauthorcartpublisherservice.domain.model.CartItemEntity;
@@ -30,6 +32,9 @@ public class CartService implements ICartService {
 
     @Autowired
     private BookRepository bookRepository;
+
+    @Autowired
+    private SupplierClient supplierClient;
 
     public Optional<CartEntity> addToCart(final String sessionId, final long bookId, final long amount) {
         if (bookId < 0) {
@@ -171,6 +176,8 @@ public class CartService implements ICartService {
                 long numberInCart = cartItemEntity.getAmount();
                 if (numberInStock - numberInCart < 2) {
                     // Order new books from the central administration
+                    String order = "{\"title\":\""+cartItemEntity.getItem().getTitle()+"\", \"amount\":"+cartItemEntity.getItem().getAmount()+"}";
+                    supplierClient.orderBook(new BookOrderDTO(cartItemEntity.getItem().getTitle(), cartItemEntity.getItem().getAmount()));
                     // Simulate successful new order
                     cartItemEntity.getItem().setAmount(10);
                 } else { // no need to order new books, just reduce the amount
