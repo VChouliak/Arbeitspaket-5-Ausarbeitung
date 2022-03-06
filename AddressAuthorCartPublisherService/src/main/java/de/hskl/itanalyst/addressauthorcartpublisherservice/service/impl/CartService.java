@@ -176,10 +176,10 @@ public class CartService implements ICartService {
                 long numberInCart = cartItemEntity.getAmount();
                 if (numberInStock - numberInCart < 2) {
                     // Order new books from the central administration
-                    String order = "{\"title\":\""+cartItemEntity.getItem().getTitle()+"\", \"amount\":"+cartItemEntity.getItem().getAmount()+"}";
-                    supplierClient.orderBook(new BookOrderDTO(cartItemEntity.getItem().getTitle(), cartItemEntity.getItem().getAmount()));
+                    long orderAmount = 10L;
+                    supplierClient.orderBook(new BookOrderDTO(cartItemEntity.getItem().getTitle(), orderAmount));
                     // Simulate successful new order
-                    cartItemEntity.getItem().setAmount(10);
+                    cartItemEntity.getItem().setAmount(orderAmount);
                 } else { // no need to order new books, just reduce the amount
                     cartItemEntity.getItem().setAmount(numberInStock - numberInCart);
                     bookRepository.save(cartItemEntity.getItem());

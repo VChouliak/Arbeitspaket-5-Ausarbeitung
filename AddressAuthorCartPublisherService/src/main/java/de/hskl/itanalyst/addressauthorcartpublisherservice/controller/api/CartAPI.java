@@ -3,9 +3,11 @@ package de.hskl.itanalyst.addressauthorcartpublisherservice.controller.api;
 import de.hskl.itanalyst.addressauthorcartpublisherservice.domain.dto.Cart.CartDTO;
 import de.hskl.itanalyst.addressauthorcartpublisherservice.domain.model.CartEntity;
 import de.hskl.itanalyst.addressauthorcartpublisherservice.service.ICartService;
+import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
 import io.swagger.annotations.*;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import springfox.documentation.annotations.ApiIgnore;
@@ -78,6 +80,7 @@ public class CartAPI {
     }
 
     @PostMapping(value = "/checkout")
+    @CircuitBreaker(name="supplierOrder", fallbackMethod = "test")
     @ApiOperation(value = "Einkauf abschließen -> Warenkorb löschen.")
     @ApiResponses(value = {
             @ApiResponse(code = 200, message = "Einkauf erfolgreich abgeschlossen.", response = CartDTO.class)
@@ -85,5 +88,11 @@ public class CartAPI {
     public ResponseEntity<CartDTO> checkoutCart(@ApiIgnore final HttpSession session) {
         final CartEntity cartEntity = cartService.checkoutCart(session.getId());
         return ResponseEntity.ok(modelMapper.map(cartEntity, CartDTO.class));
+    }
+
+    public ResponseEntity<String> test(Throwable t){
+        String message = "Supplier is not reachable: " + t;
+        System.out.println("Item Catalog is down");
+        return new ResponseEntity<String>(message, HttpStatus.OK);
     }
 }
